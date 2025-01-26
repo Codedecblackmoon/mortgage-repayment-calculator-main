@@ -72,19 +72,23 @@ label{
     font-size: 0.7rem;
     color: rgb(133, 133, 133);
     margin: 0;
-    padding: 5px;  
+    padding: 0px 0px 0px 5px;  
 }
 
-input{
+#mort, #mt, #ir{
     width: 100%;
     padding: 5px;
     margin-top: 5px;
     border: 1px solid #ccc;
-    border-radius: 7px;
+    border-radius: 3px;
     font-size: 16px;
     box-sizing: border-box;
     color: rgb(1, 35, 59);
     /* font-weight: 700; */
+}
+
+#mort{
+    margin-bottom: 15px;
 }
 
 #mortgage{
@@ -95,3 +99,9 @@ input{
     gap: 20px;
 }
 
+#box{
+    border: 1px solid #ccc;
+    padding: 7px;
+    border-radius: 0px 0px 0px 3px;
+    margin: 7px;
+}
