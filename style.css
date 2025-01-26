@@ -1,4 +1,13 @@
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url('./assets/fonts/PlusJakartaSans-Italic-VariableFont_wght.ttf') format('truetype'),
+         url('./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html, body {
+    font-family: 'plus Jakarta Sans', sans-serif;
     height: 100%;
     margin: 0;
     display: flex;
@@ -33,6 +42,16 @@ html, body {
     border-radius: 0px 15px 15px 50px;
     min-width: 50%;
 
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+    /* text-align: center; */
 }
 
 
