@@ -105,3 +105,27 @@ label{
     border-radius: 0px 0px 0px 3px;
     margin: 7px;
 }
+
+#box #inter{
+    font-size: 12px;
+    font-weight: 700px;
+    font-style: bold;
+    color: rgb(1, 35, 59);
+}
+
+.btn{
+    background-color: rgb(175, 219, 0);
+    color: rgb(1, 35, 59);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 700;
+    display: block;
+}
+
+/* .btn input{
+    border: none;
+
+} */
