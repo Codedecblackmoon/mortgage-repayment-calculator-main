@@ -102,8 +102,9 @@ label{
 #box{
     border: 1px solid #ccc;
     padding: 7px;
-    border-radius: 0px 0px 0px 3px;
+    border-radius: 3px;
     margin: 7px;
+   
 }
 
 #box #inter{
