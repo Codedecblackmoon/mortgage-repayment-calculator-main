@@ -114,7 +114,7 @@ label{
     color: rgb(1, 35, 59);
 }
 
-.btn{
+/* .btn{
     background-color: rgb(175, 219, 0);
     color: rgb(1, 35, 59);
     border: none;
@@ -124,6 +124,32 @@ label{
     font-size: 13px;
     font-weight: 700;
     display: block;
+} */
+
+/* #calculator > span{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}*/
+
+#calculator > img{
+    width: 17px;
+    height: 17px;
+   
+} 
+
+button{
+    background-color: rgb(175, 219, 0);
+    color: rgb(1, 35, 59);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
 }
 
 .results{
