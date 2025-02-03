@@ -167,16 +167,21 @@ button{
         margin: 40px;
 
         .title{
-            font-size: 24px;
+            font-size: 15px;
             font-weight: 700;
-            margin: 16px 0 20px;
+            margin: 8px 0 10px;
             color: #efefef;
         }
     
         p{
+
+            font-size: 10px;
+            font-weight: 100;
             text-align: center;
             color: var(--slate300);
-            line-height: 140% ;
+            line-height: 130% ;
+            opacity: 0.5;
+
         }
     
         @media (max-width: 850px) {
@@ -217,12 +222,62 @@ button{
         }
 
         &_repayment{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin: 0 20px;
-    }
+            background-color: hsl(202, 56%, 12%);
+            border-top: 3px solid hsl(var(--lime));
+            border-radius: 12px;
+            padding: 30px 34px;
+
+            .resultBox {
+
+                &_monthRepay, &_totalRepay{
+                    color: var(--slate300);
+                }
+
+                &_mouthAmoun{
+                    font-size: 56px;
+                    font-weight: 700;
+                    padding: 10px 0 34px;
+                    border-bottom: 1px solid hsl(var(--slate300));
+                    color: hsl(var(--lime));
+
+                    @media (max-width: 850px) {
+                        font-size: 40px;
+                        padding: 6px 0 22px;
+                    }
+                }
+
+                &_totalRepay{
+                    margin: 32px 0 8px;
+
+                    @media (max-width: 850px) {
+                        margin: 16px 0 8px;
+                    }
+                }
+
+                &_totalAmoun{
+                    font-size: 24px;
+                    font-weight: 700;
+                    color: hsl(var(--lime));
+                }
+            
+            }
+
+            @media (max-width: 850px) {
+                border-radius: 8px;
+                padding: 24px 20px;
+            }
         
+        }
+
+        @media (max-width: 850px) {
+            margin: 32px 22px;
+        }
+
+    }
+
+    @media (max-width: 850px) {
+        border-radius: 0;
+    }
 }
 
 
@@ -233,12 +288,12 @@ button{
     opacity: 0.5;
     margin: 0px;
     padding: 0px;
-}
+}*/
 
 .results img{
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     margin: 0 auto;
     margin: 0px;
     padding: 0px;
-} */
+} 
