@@ -60,28 +60,40 @@
       </form>
       
     </div>
-    <div class="results">
 
-      <img src="./assets/images/illustration-empty.svg" alt="">
-      <h4>Results shown here</h4>
-      <p>Complete the form and click “calculate repayments” to see what 
-      your monthly repayments would be.</p>
+
+    <div class="results">
+      <div id="emptyResultBox">
+        <img src="./assets/images/illustration-empty.svg" alt="">
+        <div class="title">Results shown here</div>
+        <p>Complete the form and click “calculate repayments” to see what 
+        your monthly repayments would be.</p>
+      </div>
+      <div class="fullResultBox" id="fullResultBox">
+        <div class="fullResultBoxTop_header">
+          <div class="title">Your results</div>
+        </div>
+        <div class="fullResultBox_text">
+          <p> Your results are shown below based on the information you provided. 
+            To adjust the results, edit the form and click “calculate repayments” again.</p>
+        </div>
+        <div class="fullResultBox_repayment">
+          <div class="resultBox">
+            <div class="resultBox_-monthRepay">Your monthly repayments</div>
+            <div class="resultBox_mouthAmount"  id="monthAmount"></div>
+            <div class="resultBox_-totalRepay">Total you'll repay over the term</div>
+            <div class="resultBox_totalAmount" id="totalAmount"></div>
+          </div>
+        </div>
+      </div>
+
+      
       
     </div>
 
     <!-- Empty results end -->
 
     <!-- Completed results start -->
-
-    <!-- Your results
-
-    Your results are shown below based on the information you provided. 
-    To adjust the results, edit the form and click “calculate repayments” again.
-
-    Your monthly repayments
-
-    Total you'll repay over the termk -->
-
     <!-- Completed results end -->
   </div>
 
