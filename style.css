@@ -270,6 +270,61 @@ button{
 }
 
 
+.fullResultBox .titlee{
+    text-align: left;
+    
+}
+
+.fullResultBox  .fullResultBox_text{
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+    color: var(--slate300);
+    line-height: 130% ;
+    opacity: 0.5;
+    text-align: left;
+
+}
+
+.fullResultBox_repayment{
+    background-color: hsl(206, 61%, 8%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 3px solid hsl(74, 95%, 48%);
+    border-radius: 5px;
+    
+}
+
+.resultBox_monthRepay,
+.resultBox_totalRepay{
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+    color: var(--slate300);
+    line-height: 130% ;
+    opacity: 0.5;
+    padding-bottom:8px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.resultBox_mouthAmount{
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    color: hsl(74, 95%, 48%);
+    line-height: 130% ;
+    padding-bottom:18px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.resultBox_totalAmount{
+    padding-left: 20px;
+    text-align: left;
+}
+
+
 @media (max-width: 850px) {
     .container {
         flex-direction: column ;
