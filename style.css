@@ -23,8 +23,6 @@ html, body {
     background-color: rgb(255, 255, 255); 
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
     border-radius: 15px; 
-    /* padding: 0px 0px 0px 20px;        */
-    /* text-align: center; */
     display: flex;
     flex-direction: row;
 }
@@ -114,22 +112,6 @@ label{
     color: rgb(1, 35, 59);
 }
 
-/* .btn{
-    background-color: rgb(175, 219, 0);
-    color: rgb(1, 35, 59);
-    border: none;
-    padding: 10px 25px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 13px;
-    font-weight: 700;
-    display: block;
-} */
-
-/* #calculator > span{
-    margin-top: 0px;
-    margin-bottom: 10px;
-}*/
 
 #calculator > img{
     width: 17px;
@@ -284,5 +266,15 @@ button{
 
     @media (max-width: 850px) {
         border-radius: 0;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .container {
+        flex-direction: column ;
+        border-radius: 0;
+        width: 100%;
+        height: 100%;
     }
 }
