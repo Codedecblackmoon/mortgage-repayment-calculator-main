@@ -174,7 +174,6 @@ button{
         }
     
         p{
-
             font-size: 10px;
             font-weight: 100;
             text-align: center;
@@ -183,6 +182,14 @@ button{
             opacity: 0.5;
 
         }
+
+        img{
+            width: 140px;
+            height: 140px;
+            margin: 0 auto;
+            margin: 0px;
+            padding: 0px;
+        } 
     
         @media (max-width: 850px) {
             margin: 32px;
@@ -279,21 +286,3 @@ button{
         border-radius: 0;
     }
 }
-
-
-
-/* .results p{
-    font-size: 10px;
-    font-weight: 100;
-    opacity: 0.5;
-    margin: 0px;
-    padding: 0px;
-}*/
-
-.results img{
-    width: 140px;
-    height: 140px;
-    margin: 0 auto;
-    margin: 0px;
-    padding: 0px;
-} 
